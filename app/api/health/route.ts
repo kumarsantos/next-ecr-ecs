@@ -1,7 +1,5 @@
 import { NextResponse } from "next/server";
 
-export const dynamic = "force-dynamic";
-
 interface HealthyResponse {
   status: "healthy";
   uptime: number;
